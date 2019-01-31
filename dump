@@ -1,0 +1,3 @@
+Model supports probability estimates, but disabled in prediction.
+Mean squared error = 3708.95 (regression)
+Squared correlation coefficient = -1.#IND (regression)
