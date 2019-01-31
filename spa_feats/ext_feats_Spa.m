@@ -1,6 +1,7 @@
 function spatial_features = ext_feats_Spa(img)
 %% Extract Features in Spatial Domain
-
+disp('Time of extracting features in the spatial domain');
+tic
 
 if(size(img,3)==3)                         
     img = uint8(img);
@@ -42,8 +43,9 @@ for scale = 1:2
     end
 %% 2nd scale
     img = imresize(img,0.5);
-
 end
+toc;
+
 
 
 

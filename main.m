@@ -6,8 +6,9 @@ addpath('dct_feats\');
 addpath('pred_model');
 %% Extract The Features of Image
 
-img = imread('test_syn(DMOS=61.18).bmp');
-% img = imread('test_aut(MOS=46.47).bmp');
+img = imread('test_aut(MOS=46.47).bmp');
+%img = imread('test_syn(DMOS=61.18).bmp');
+
 
 feats = [ext_feats_DCT(img) ext_feats_Spa(img)];
 
@@ -20,5 +21,5 @@ feats = [ext_feats_DCT(img) ext_feats_Spa(img)];
 %  ipnut 2 as the second parameter
 %  For example: score = pred_score(feats,2);
 
-score = pred_score(feats,1); 
-% score = pred_score(feats,2);  
+score = pred_score(feats,2); 
+% score = pred_score(feats,1);  
