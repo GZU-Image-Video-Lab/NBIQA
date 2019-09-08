@@ -2,7 +2,7 @@
 
 This repository contain the source code of the following technical report:
 
-    @inproceedings{Ou2019,
+    @inproceedings{NBIQA2019,
       author    = {Fu-Zhao {Ou} and
                    Yuan-Gen {Wang} and
                    Guopu  {Zhu}},
