@@ -31,16 +31,16 @@ Running the main.m
 
 1. Load the image, for example
 
-  img = imread('test.bmp');
+    img = imread('test.bmp');
 
 2. Call this function to calculate the quality score:
 
-    If The input image is a synthetically distorted image, 
-    input 1 as the second parameter
-         For example: score = pred_score(feats,1);
-    Else, The input image is a theauthentically distorted image,
-    ipnut 2 as the second parameter
-         For example: score = pred_score(feats,2);
+    If The input image is the synthetically distorted image, 
+    input 1 as the second parameter, for example
+    score = pred_score(feats,1);
+    Else, The input image is the authentically distorted image,
+    ipnut 2 as the second parameter, for example
+    score = pred_score(feats,2);
 
 # Dependencies
 
